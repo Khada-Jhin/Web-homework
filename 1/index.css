@@ -1,0 +1,42 @@
+body{
+	background-image: url("image/silverware.jpg");
+	background-color: white;
+}
+header{
+	text-decoration: underline;
+	text-align: center;
+	color: rgb(164,164,0);
+	background-color: rgb(240,240,240);
+	font-family: "Century Gothic", Futura, Verdana, Sans-serif;
+	font-size: 22pt;
+	word-spacing: 0.2em;
+}
+h2{
+	text-decoration: underline;
+	color: rgb(164,164,0);
+	background-color: rgb(240,240,240);
+	font-family: "Century Gothic", Futura, Verdana, Sans-serif;
+	font-size:15pt;
+	word-spacing: 0.2em;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
+a:link{
+	color: blue;
+	text-decoration: none;
+}
+a:visited{
+	color: blue;
+	text-decoration: none;
+}
+a:hover{
+	color: grey;
+	text-decoration: none;
+}
+a:active{
+	color: black;
+	text-decoration: none;
+}

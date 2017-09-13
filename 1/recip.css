@@ -1,0 +1,49 @@
+body{
+	background-image: url("image/silverware.jpg");
+	background-color: white;
+}
+header{
+	text-decoration: underline;
+	text-align: center;
+	color: rgb(164,164,0);
+	background-color: rgb(240,240,240);
+	font-family: "Century Gothic", Futura, Verdana, Sans-serif;
+	font-size: 22pt;
+	letter-spacing: 0.2em;
+}
+h2{
+	text-decoration: underline;
+	color: rgb(164,164,0);
+	background-color: rgb(240,240,240);
+	font-family: "Century Gothic", Futura, Verdana, Sans-serif;
+	font-size:18pt;
+	letter-spacing: 0.2em;
+}
+p{
+	color: rgb(64,64,64);
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+}
+ul{
+	list-style-image: url("image/pie_list.gif");
+	color: rgb(64,64,64);
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+}
+ol{
+	color: rgb(64,64,64);
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+}
+span.dir{
+	font-weight: bold;
+}
+blockquote.quo{
+	background-color: rgb(255,255,200);
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+	font-style: italic;
+}
+a{
+	color: rgb(164,164,0);
+}
