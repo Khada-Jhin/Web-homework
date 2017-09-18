@@ -1,5 +1,5 @@
 body{
-	background-image: url("image/silverware.jpg");
+	background-image: url("../image/silverware.jpg");
 	background-color: white;
 }
 header{
@@ -10,6 +10,7 @@ header{
 	font-family: "Century Gothic", Futura, Verdana, Sans-serif;
 	font-size: 22pt;
 	letter-spacing: 0.2em;
+	font-weight: bold;
 }
 h2{
 	text-decoration: underline;
@@ -25,7 +26,7 @@ p{
 	font-size: 11pt;
 }
 ul{
-	list-style-image: url("image/pie_list.gif");
+	list-style-image: url("../image/pie_list.gif");
 	color: rgb(64,64,64);
 	font-family: Georgia, Garamond, serif;
 	font-size: 11pt;
