@@ -1,0 +1,82 @@
+html,
+body
+{
+    background-color: #b0c4de;
+}
+.main
+{
+    font-family: 'Century Gothic', Futura, Verdana, sans-serif;
+    font-size: 18pt;
+
+    width: 400px;
+    height: 580px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    letter-spacing: .2em;
+
+    color: #b0c4de;
+    border-radius: 5%;
+    background-color: white;
+    cursor: default;
+}
+
+.main div
+{
+    clear: both;
+}
+
+.output
+{
+    overflow: hidden;
+    width: 400px;
+    height: 35px;
+}
+.screen
+{
+    font-size: 16px;
+    line-height: 24px;
+
+    width: 300px;
+    height: 28px;
+
+    text-align: right;
+
+    color: #999;
+    border: gray 1px solid;
+}
+.buttons
+{
+    overflow: hidden;
+
+    margin-left: 0;
+
+    text-align: center;
+}
+button
+{
+    font-size: 30px;
+    line-height: 64px;
+
+    display: inline;
+
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+    margin-left: 7.5px;
+
+    list-style: none;
+
+    cursor: pointer;
+
+    color: gray;
+    border: 0;
+    background-color: #eaeaea;
+}
+
+button:hover
+{
+    color: white;
+    background-color: rgba(0,0,20,.6);
+}
