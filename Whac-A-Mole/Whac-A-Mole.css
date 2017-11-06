@@ -1,0 +1,80 @@
+.center,
+.mole
+{
+    text-align: center ;
+}
+
+#instructions
+{
+    width: 700px ;
+    margin: auto ;
+
+    text-align: left;
+}
+#untitled
+{
+    font-weight: bold;
+}
+.line
+{
+    margin-left: 12px;
+}
+.right
+{
+    float: right ;
+
+    margin-right: 5px;
+}
+
+#info
+{
+    width: 320px ;
+    height: 60px ;
+    margin: 10px auto ;
+}
+
+#Time,
+#Score
+{
+    float: right ;
+
+    width: 120px ;
+}
+
+#time,
+#score
+{
+    float: right ;
+
+    width: 50px ;
+    height: 14px ;
+}
+
+#Score
+{
+    margin-top: 10px ;
+}
+
+#show
+{
+    width: 130px ;
+    margin-top: 10px ;
+}
+
+hr
+{
+    width: 330px;
+}
+
+
+#main
+{
+    width: 320px ;
+    height: 160px ;
+    margin: 10px auto ;
+}
+
+input[type='radio']
+{
+    margin: 0 0 10px 13px;
+}
