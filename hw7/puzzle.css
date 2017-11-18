@@ -1,0 +1,162 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+#inner,h1,h2,p{
+	text-align: center;
+}
+h2{
+	width: 300px;
+	height:40px;
+	margin-left : auto;
+	margin-right: auto;
+}
+input{
+	height: 40px;
+	width: 80px;
+	background-color: #7d7dfa;
+	border: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+#show{
+	width: 120px;
+}
+#tu{
+	width: 200px;
+	height: 220px;
+	margin: 0px;
+	position: absolute;
+	right: 60px;
+	bottom : 60px;
+}
+#tip{
+	width: 200px;
+	height: 200px;
+	margin: 0px;	
+	background-image: url("panda.jpg");
+	background-size: 200px 200px;
+}
+p{
+	height: 20px;
+	margin: 0px;
+	font-weight: bold;
+}
+#puzzle{
+	width: 360px;
+	height: 360px;
+	margin: auto;
+	padding: 0px;
+	border: 0px;
+	position: relative;
+	left: 0px;
+	right: 0px;
+}
+.picture{
+	background-image: url("panda.jpg");
+	width: 88px;
+	height: 88px;
+	border: 1px;
+	border-style: solid;
+	border-color: white;
+	background-repeat: no-repeat;
+}
+#g1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-position: 0px 0px;
+}
+#g2{
+	position: absolute;
+	left: 90px;
+	top: 0px;	
+	background-position: -88px 0px;
+}
+#g3{
+	position: absolute;
+	left: 180px;
+	top: 0px;	
+	background-position: -176px 0px;
+}
+#g4{
+	position: absolute;
+	left: 270px;
+	top: 0px;	
+	background-position: -264px 0px;
+}
+#g5{
+	position: absolute;
+	left: 0px;
+	top: 90px;	
+	background-position: 0px -88px;
+}
+#g6{
+	position: absolute;
+	left: 90px;
+	top: 90px;	
+	background-position: -88px -88px;
+}
+#g7{
+	position: absolute;
+	left: 180px;
+	top: 90px;	
+	background-position: -176px -88px;
+}
+#g8{
+	position: absolute;
+	left: 270px;
+	top: 90px;	
+	background-position: -264px -88px;
+}
+#g9{
+	position: absolute;
+	left: 0px;
+	top: 180px;	
+	background-position: 0px -176px;
+}
+#g10{
+	position: absolute;
+	left: 90px;
+	top: 180px;	
+	background-position: -88px -176px;
+}
+#g11{
+	position: absolute;
+	left: 180px;
+	top: 180px;	
+	background-position: -176px -176px;
+}
+#g12{
+	position: absolute;
+	left: 270px;
+	top: 180px;	
+	background-position: -264px -176px;
+}
+#g13{
+	position: absolute;
+	left: 0px;
+	top: 270px;	
+	background-position: 0px -264px;
+}
+#g14{
+	position: absolute;
+	left: 90px;
+	top: 270px;	
+	background-position: -88px -264px;
+}
+#g15{
+	position: absolute;
+	left: 180px;
+	top: 270px;	
+	background-position: -176px -264px;
+}
+#g16{
+	position: absolute;
+	left: 270px;
+	top: 270px;	
+	background-image: none;
+	background-color: #eeeef0;
+}
