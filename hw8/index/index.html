@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>sign in</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>                       
+    <h1>用户注册</h1>
+    	<div id="main">
+        	<form  method="POST" action="/">
+            	<div>
+                	<label class="text"><span>用户名：</span><input type="text" id="username" name="username" value=""></label>
+                	<p id="name_er"></p>
+            	</div>
+            	<div>
+                	<label class="text"><span>学号：</span><input type="text" id="std_id" name="std_id" value=""></label>
+                	<p id="id_er"></p>
+            	</div>
+            	<div>
+                	<label class="text"><span>电话：</span><input type="text" id="phone" name="phone" value=""></label>
+                	<p id="phone_er"></p>
+            	</div>
+            	<div>
+                	<label class="text"><span>邮箱：</span><input type="text" id="email" name="email" value=""></label>
+                	<p id="email_er"></p>
+            	</div>
+        </form>
+        	<div id="btn"><input type="button" class="button" id="submit" value="提交"><input type="button" class="button" id="reset" value="重置"></div>
+    	</div>
+    </body>
+</html>
